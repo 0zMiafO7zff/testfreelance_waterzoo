@@ -157,94 +157,6 @@ ul li:hover{
     }
 }
 
-
-
-
-/* nav {
-    background-color: rgb(10, 74, 135);
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-    height: 60px;
-    z-index: 1;
-}
- 
-
-.menu-list {
-    display: flex;
-    text-align: center;
-    align-items: center;
-}
-
-.menu-list li {
-    padding: 10px;
-    margin: 0 1rem;
-    width: 120px;
-    font-size: 18px;
-    list-style: none;
-}
-
-.menu-list li a {
-    color: white;
-    text-decoration: none;
-}
-
-.underline {
-    position : relative;
-    display : inline-block;
-  }
-.underline::after {
-    content : "";
-    position : absolute;
-    width : 100%;
-    height : 3px;
-    background-color: rgb(250, 250, 250);
-    bottom: 0;
-    left: 0;
-    transform : scaleX(0);
-    transform-origin: bottom right;
-    transition : transform 0.25s linear;
-  }
-.underline:hover::after {
-    transform-origin: bottom left;
-      transform: scaleX(1);
-}
-
-
-.active {
-    font-size: 1px;
-}
-.nav-toggle {
-    position: absolute;
-    top: .8rem;
-    right: 1.5rem;
-    font-size: 28px;
-    color: white;
-    display: inline-block;
-    cursor: pointer;
-    display: none;
-}  
-
-@media screen and (max-width: 1000px) {
-
-    .nav-toggle {
-        display: block;
-    }
-    .menu-list {
-        display: flex;
-        flex-direction: column;
-        margin-top: 30px;
-    }
-    nav {
-        background-color: rgb(10, 74, 135);
-        height: 500px;
-    }
-    .menu-list li {
-        margin-bottom: 5px;
-    }
-
-} */
 /* NAVBAR END */
 
 
@@ -352,7 +264,9 @@ header {
         grid-gap: 50px;
         font-size: 12px;
         margin-right: .5rem;
+        margin-left: .5rem;
     }
+   
 }
 /* MAIN END */
 
@@ -796,7 +710,6 @@ header {
     border-radius: 10px;
     padding: 1.5rem;
     background: white;
-    border: 1px solid #000;
 }
 
 .contact-text {
@@ -804,7 +717,6 @@ header {
     display: flex;
     height: 200px;
     align-items: center;
-
 
 }
 
@@ -846,6 +758,9 @@ header {
         font-size: 14px;
         height: 120px;
         margin: .5rem 0;
+    }
+    .contact-info {
+        padding-top: 3rem;
     }
 }
 /* CONTACT END */
@@ -958,7 +873,7 @@ footer {
         margin: 1rem 0;
     }
     .footer-icon {
-        margin-top: 80px;
+        margin-top: 120px;
     }
 }
 /* FOOTER END */
